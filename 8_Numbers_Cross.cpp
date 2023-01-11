@@ -6,7 +6,7 @@ using namespace std;
 
 bool Ok(int q[], int c){
     
-	int a[8][5] ={  {-1},               // 0  Neighbor list for each square
+	int a[8][5] ={  {-1},           // 0  Neighbor list for each square
                     {0, -1},            // 1
                     {0, -1},            // 2  The cross with the squares labeled:
                     {0, 1, 2, -1},      // 3                  0 1
