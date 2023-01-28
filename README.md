@@ -29,6 +29,6 @@ Solve the Towers of Hanoi puzzle, for an even and odd number of rings.
 
 INTEGRATION (USING FUNCTION POINTERS)
 
-The problem is to write a function “integrate” with prototype FUNC, which represents functions of one variable that take a double as input and return a double. When it is passed a function f and bounds a and b, the call "integrate(f, a,b)" will return the value of the definite integral of f evaluated between a and b. Test this with line, square, and cube- using a main function.
+The problem is to write a function “integrate”. Using typedef, we declare a variable FUNC to represent a pointer to a function that takes a double as input and return a double. When it is passed a function f and bounds a and b, the call "integrate(f, a,b)" will return the value of the definite integral of f evaluated between a and b. Test this with line, square, and cube- using a main function.
 
 How does integrate work? Inside a loop we sum up the area of rectangles with a small base (say .0001) and height f(x) for each x between a and b in increments of .0001. When the loop terminates, we return the value of the sum. The purpose if this assignment is to see (and implement) a very simple application of function pointers.
